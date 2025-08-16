@@ -40,3 +40,8 @@ print("Two number of average is : ",average)
 num = float(input("Enter the number :"))
 square = num ** 2   # (also we can use this line Square = num * num)  
 print(f"number of square {num} is {square}")
+
+
+# Write a python program to display a user entered name followed by good afternoon using input() function 
+Who = input("Enter your name : ")
+print("Good morning,", Who )
