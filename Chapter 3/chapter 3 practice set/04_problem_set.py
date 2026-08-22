@@ -1,0 +1,3 @@
+a = "Raitig is a good  boy  and he is a good programmer"
+print(a.replace("  ", " ")) # this code will replace the double space with single space. if there is no double space in the string then it will not change anything.
+print(a) # Strings are immutable which means that you cannot change them by running functions on them. if you want to change the string then you have to assign the new string to the same variable or to a new variable. in this case we are assigning the new string to the same variable a. if we want to keep the original string then we can assign the new string to a new variable b.

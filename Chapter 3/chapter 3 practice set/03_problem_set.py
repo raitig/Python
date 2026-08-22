@@ -1,0 +1,2 @@
+a = "Raitig is a good  boy  and he is a good programmer"
+print(a.find("  ")) # if show the output -1 then it means that there is no double space in the string. if it show th output in positive number so in this string have double space.

@@ -1,0 +1,2 @@
+letter = " Dear Raitig,\n \t This python course is nice. \nThanks! "
+print(letter) # this code will print the letter with the new line and tab space. \n is used for new line and \t is used for tab space.

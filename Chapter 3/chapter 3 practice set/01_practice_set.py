@@ -1,0 +1,2 @@
+name = input("Enter your name : ")
+print(f"Good Afternoon, {name}") #this will print the string "Good Afternoon" followed by the name entered by the user. because the f-string is used to format the string.)
