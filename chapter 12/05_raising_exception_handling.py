@@ -1,0 +1,6 @@
+a = int(input("Enter a number : ")) # Exception handeling start with try block. The code that may raise an exception is placed inside the try block. In this case, we are trying to convert the user input into an integer using the int() function. If the user enters a valid number, it will be converted successfully and assigned to the variable 'a'.
+b = int(input("Enter a number : ")) # Exception handeling start with try block. The code that may raise an exception is placed inside the try block. In this case, we are trying to convert the user input into an integer using the int() function. If the user enters a valid number, it will be converted successfully and assigned to the variable 'b'.
+if (b ==0):
+    raise ZeroDivisionError("Hey, You can't divide by zero") # If the user enters 0 for 'b', it will raise a ZeroDivisionError, which will be caught by the except block.
+else:
+    print(f"The division a / b is : {a/b}") # If the user enters a valid number, it will be converted successfully and assigned to the variable 'b'. Then we are performing division of 'a' by 'b' and printing the result. However, if the user enters 0 for 'b', it will raise a ZeroDivisionError, which will be caught by the except block.
